@@ -1,4 +1,4 @@
-import main as m
+
 
 def binary_sum(x, y):
     sum = int(x, base=16) ^ int(y, base=16)

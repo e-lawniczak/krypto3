@@ -1,8 +1,8 @@
-import main as m
+import helper as m
 import zad_1_suma as z1
 
 
-def binary_xtime(x):
+def xtime(x):
     x = str(m.hex_to_bin(x))
     x = str(x)[2:]
     B1 = '00011011'
@@ -22,5 +22,5 @@ def binary_xtime(x):
 
 
 if __name__ == '__main__':
-    xtime = binary_xtime('a1')
-    print("Xtime: ", xtime)
+    xd = xtime('a1')
+    print("Xtime: ", xd)
